@@ -12,6 +12,17 @@
     </div>
     <div class="container">
          <header>
+         <div class="auth-button-container">
+        <?php if (is_user_logged_in()): ?>
+            <a href="<?php echo wp_logout_url(home_url()); ?>" class="auth-button logout">
+                Logout
+            </a>
+        <?php else: ?>
+            <a href="<?php echo wp_login_url(); ?>" class="auth-button login">
+                Login
+            </a>
+        <?php endif; ?>
+    </div>
 		    <!-- 	<h1><?php bloginfo('name'); ?></h1> 
             <?php wp_nav_menu(array('theme_location' => 'primary')); ?> -->
         </header> 
