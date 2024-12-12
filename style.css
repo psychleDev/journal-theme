@@ -1,0 +1,23 @@
+/*
+Theme Name: Dark Responsive Theme
+Theme URI: http://example.com/
+Author: Your Name
+Author URI: http://example.com/
+Description: A dark, responsive WordPress theme with modern design
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dark-responsive-theme
+*/
+
+
+/* CSS Reset and Base Styles */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
