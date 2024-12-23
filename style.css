@@ -13,6 +13,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: dark-responsive-theme
 */
 
+
 /* CSS Reset and Base Styles */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -21,8 +22,11 @@ Text Domain: dark-responsive-theme
 }
 
 /* Dark Theme Base Styles */
+html {
+    background-color: #000000;
+}
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Montserrat", sans-serif; 
     background-color: #000000;
     color: #ffffff;
     line-height: 1.6;
@@ -37,7 +41,7 @@ body {
     padding: 0 15px;
 }
 
-/* Header Styles */
+/* Header Styles 
 .site-header {
     display: flex;
     flex-direction: column;
@@ -72,8 +76,10 @@ body {
 .main-navigation a:hover {
     color: #991b1e;
 }
+*/
 
-/* Mobile Menu Toggle */
+
+/* Mobile Menu Toggle 
 .menu-toggle {
     display: none;
     background: none;
@@ -107,6 +113,7 @@ body {
 .menu-toggle-icon::after {
     bottom: -8px;
 }
+*/
 
 /* Interactive Elements */
 a, button {
